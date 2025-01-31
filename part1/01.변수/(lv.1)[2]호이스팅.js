@@ -8,7 +8,7 @@
 
 function hoistingTest() {
   console.log(d);
-  let d = 5;
+  var d = 5;
   console.log(d);
 }
 
