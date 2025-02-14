@@ -12,7 +12,12 @@
 
 function checkAdult(age) {
   // TODO
+  return age >= 20 ? "adult" : "minor";
 }
+
+// function checkAdult(age) {
+//   // TODO
+// }
 
 // export 를 수정하지 마세요.
 export { checkAdult };
